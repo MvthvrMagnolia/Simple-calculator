@@ -1,0 +1,145 @@
+body{
+width: 500px;
+margin: 4% auto;
+font-family: monospace;
+letter-spacing: 4px;
+font-size: 1.8rem;
+-moz-user-select: none;
+
+}
+.main.calculatr{
+  background-color: #d8b4d8
+
+}
+
+.calculator {
+    padding: 20px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 1px;
+    background-color: #d8b4d8
+
+
+}
+
+.input {
+    border: 1px solid teal;
+    border-radius: 1px;
+    height: 60px;
+    padding-right: 15px;
+    padding-top: 10px;
+    text-align: right;
+    margin-right: 8px;
+    font-size: 2.5rem;
+    overflow-x: auto;
+    transition: all .2s ease-in-out;
+}
+
+.input:hover {
+border: 1px solid blanchedalmond;
+box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.clear:hover {
+border: 1px solid blanchedalmond;
+}
+
+.buttons {}
+
+.operators {}
+
+.operators div {
+        display: inline-block;
+        border: 1px solid turquoise;
+        border-radius: 1px;
+        width: 80px;
+        text-align: center;
+        padding: 10px;
+        margin: 20px 4px 10px 0;
+        cursor: pointer;
+        background-color: teal;
+        transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+      }
+      
+      .operators div:hover {
+        background-color: turquoise;
+        -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+        border-color: teal;
+      }
+      
+      .operators div:active {
+        font-weight: bold;
+      }
+      
+      .leftPanel {
+        display: inline-block;
+      }
+      
+      .numbers div {
+        display: inline-block;
+        border: 1px solid turquoise;
+        border-radius: 1px;
+        width: 80px;
+        text-align: center;
+        padding: 10px;
+        margin: 10px 4px 10px 0;
+        cursor: pointer;
+        background-color: turquoise;
+        transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+      }
+      
+      .numbers div:hover {
+        background-color: teal;
+        -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+        border-color: turquoise;
+      }
+      
+      .numbers div:active {
+        font-weight: bold;
+      }
+      
+      div.equal {
+        display: inline-block;
+        border: 1px solid teal;
+        border-radius: 1px;
+        width: 17%;
+        text-align: center;
+        padding: 127px 10px;
+        margin: 10px 6px 10px 0;
+        vertical-align: top;
+        cursor: pointer;
+        color: #FFF;
+        background-color: tomato;
+        transition: all .2s ease-in-out;
+      }
+      
+      div.equal:hover {
+        background-color: teal;
+        -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+        border-color: teal;
+      }
+      
+      div.equal:active {
+        font-weight: bold;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
